@@ -1,0 +1,53 @@
+{
+  "name": "keyblitz",
+  "version": "0.0.1",
+  "description": "Master keyboard shortcuts through muscle memory and spaced repetition",
+  "type": "module",
+  "bin": {
+    "keyblitz": "./bin/cli.js"
+  },
+  "engines": {
+    "node": ">=16"
+  },
+  "scripts": {
+    "test": "node --test test/**/*.test.js"
+  },
+  "keywords": [
+    "vim",
+    "neovim",
+    "tmux",
+    "hyprland",
+    "vscode",
+    "keybindings",
+    "shortcuts",
+    "training",
+    "cli",
+    "tui",
+    "spaced-repetition",
+    "muscle-memory",
+    "learning",
+    "productivity"
+  ],
+  "author": "Chad Jones <chadananda@gmail.com>",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/chadananda/keyblitz.git"
+  },
+  "bugs": {
+    "url": "https://github.com/chadananda/keyblitz/issues"
+  },
+  "homepage": "https://github.com/chadananda/keyblitz#readme",
+  "dependencies": {
+    "ink": "^6.4.0",
+    "ink-box": "^2.0.0",
+    "ink-gradient": "^3.0.0",
+    "ink-text-input": "^6.0.0",
+    "ink-spinner": "^5.0.0",
+    "chalk": "^5.6.2",
+    "conf": "^15.0.2",
+    "react": "^19.2.0",
+    "meow": "^14.0.0"
+  },
+  "devDependencies": {}
+}
