@@ -122,7 +122,6 @@ async function main() {
   // Interactive pack selector
   render(React.createElement(PackSelector, {
     onSelect: (selectedPackId) => {
-      process.exit(0); // Exit selector
       startGame(selectedPackId);
     }
   }));
